@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ErrorLayout">
+        <attr name="error_nodata_src" format="reference" />
+        <attr name="error_nologin_src" format="reference" />
+        <attr name="error_network_src" format="reference" />
+
+        <attr name="error_nodata_note_text" format="reference" />
+        <attr name="error_nologin_note_text" format="reference" />
+        <attr name="error_network_note_text" format="reference" />
+        <attr name="error_loading_note_text" format="reference" />
+
+        <attr name="error_nodata_button_text" format="reference" />
+        <attr name="error_nologin_button_text" format="reference" />
+        <attr name="error_network_button_text" format="reference" />
+
+        <attr name="error_loading_indeterminateDrawable" format="reference" />
+
+        <attr name="error_background" format="reference|color" />
+        <attr name="error_button_background" format="reference|color" />
+
+        <attr name="error_note_textcolor" format="color" />
+        <attr name="error_note_textsize" format="dimension" />
+        <attr name="error_button_textcolor" format="color" />
+        <attr name="error_button_textsize" format="dimension" />
+
+        <attr name="error_button_paddingLeft" format="dimension" />
+        <attr name="error_button_paddingRight" format="dimension" />
+        <attr name="error_button_paddingTop" format="dimension" />
+        <attr name="error_button_paddingBottom" format="dimension" />
+        <attr name="error_button_padding" format="dimension" />
+
+        <attr name="error_image_note_distance" format="dimension" />
+        <attr name="error_note_button_distance" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.daliammao.widget.errorlayout.ErrorLayout xmlns:error="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/el_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        error:error_loading_note_text="@string/error_network_loading_try"
+        error:error_network_button_text="@string/error_refresh_try"
+
+        error:error_network_note_text="@string/error_network_error_try"
+        error:error_network_src="@mipmap/ic_nodata_or_nologin"
+        error:error_nodata_button_text="@string/error_refresh_try"
+        error:error_nodata_note_text="@string/error_nodata_try"
+
+        error:error_background="#eeeeee"
+
+        error:error_nodata_src="@mipmap/ic_network_error"
+        error:error_nologin_button_text="@string/error_nologin_try"
+        error:error_nologin_note_text="@string/error_nologin_try"
+        error:error_nologin_src="@mipmap/ic_launcher" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:onClick="changeState"
+        android:padding="10dp"
+        android:text="切换状态"
+        android:textSize="20sp" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ErrorLayout</string>
+
+    <string name="error_network_error">没有可用的网络</string>
+    <string name="error_network_loading">正在加载</string>
+    <string name="error_nodata">暂无数据</string>
+    <string name="error_nologin">您还未登录</string>
+    <string name="error_relogin">去登录</string>
+    <string name="error_refresh">重新加载</string>
+
+    <string name="error_network_error_try">没有可用的网络(＞﹏＜)</string>
+    <string name="error_network_loading_try">正在加载o(╯□╰)o</string>
+    <string name="error_nodata_try">暂无数据⊙﹏⊙‖∣</string>
+    <string name="error_nologin_try">您还未登录⊙︿⊙</string>
+    <string name="error_relogin_try">去登录(⊙o⊙)…</string>
+    <string name="error_refresh_try">重新加载@_@</string>
+
+    <string name="try_set_resources">尝试设置资源</string>
+</resources>
