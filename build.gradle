@@ -13,6 +13,5 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "http://10.10.10.254:8081/artifactory/libs-release-local" }
     }
 }
