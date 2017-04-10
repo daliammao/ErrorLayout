@@ -10,11 +10,12 @@ import com.daliammao.widget.errorlayout.ErrorLayout;
 public class MainActivity extends AppCompatActivity {
 
     ErrorLayout mErrorLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mErrorLayout = (ErrorLayout)findViewById(R.id.el_main);
+        mErrorLayout = (ErrorLayout) findViewById(R.id.el_main);
         mErrorLayout.setIsButtonVisible(true);
         mErrorLayout.setonErrorClickListener(new ErrorLayout.OnErrorClickListener() {
             @Override
@@ -22,13 +23,14 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(v.toString() + state);
             }
         });
-        mErrorLayout.setResources(ErrorLayout.STATE_NETWORK_ERROR,ErrorLayout.RESOURCES_BUTTON,R.string.try_set_resources);
+        mErrorLayout.setResources(ErrorLayout.STATE_NETWORK_ERROR, ErrorLayout.RESOURCES_BUTTON, R.string.try_set_resources);
     }
 
     int i = 0;
-    public void changeState(View v){
-        i = (++i%5)+1;
-        switch (i){
+
+    public void changeState(View v) {
+        i = (i + 1) % 5;
+        switch (i+1) {
             case ErrorLayout.STATE_HIDE:
                 mErrorLayout.setErrorType(ErrorLayout.STATE_HIDE);
                 break;
